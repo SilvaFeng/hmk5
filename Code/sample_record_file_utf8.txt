@@ -1,0 +1,88 @@
+// sample file or text records. 
+// a line starting with double slash "//" is a comment. 
+// each record has the structure as follows::after
+// - starting with a line containing a string  <begin>
+// - Then, a line containing <id> followed by an integer. 
+// - Then, a line containing <title> followed by a string, which is the title 
+// - Then, a line containing <text> followed by a newline
+// - Then, one or more lines of text, ending with a newline, the content of the record
+// - ending with a line containing <end>
+
+// for example : 
+
+<begin>
+<id> 5
+<title> a 5x5 square
+<text>
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+<end>
+
+<begin>
+<id> 6
+<title>  a triangle of 5 lines. 
+<text>
+    *  
+   ***
+  *****
+ *******
+*********
+<end>
+
+<begin>
+<id> 7
+<title>  how to find C documents
+<text>
+Today is Dec, 18, 2021. I find two good websites of documents of C. 
+www.cppreference.com
+www.cplusplus.com
+<end>
+
+<begin> 
+<id> 8
+<title>  "welcomem to macau". Some ascii art found at https://texteditor.com/ascii-art/  
+<text>
+  ___                      ___  
+ (o o)                    (o o) 
+(  V  ) welcome to macau (  V  )
+--m-m----------------------m-m--
+<end> 
+
+<begin> 
+<id> 9
+<title> "micky mouse".  Some ascii art found at https://texteditor.com/ascii-art/
+<text>
+        .-"""-.
+        /       \
+        \       /
+ .-"""-.-`.-.-.<  _
+/      _,-\ ()()_/:)
+\     / ,  `     `|
+ '-..-| \-.,___,  /
+       \ `-.__/  /
+        `-.__.-'`
+<end> 
+
+<begin> 
+<id> 10
+<title>  望江南·超然臺作   https://fanti.dugushici.com/ancient_proses/49043
+<text>
+朝代：宋代
+
+作者：蘇軾
+
+原文：
+
+春未老，風細柳斜斜。試上超然臺上看，半壕春水一城花。煙雨暗千家。
+寒食後，酒醒卻諮嗟。休對故人思故國，且將新火試新茶。詩酒趁年華。
+<end> 
+
+<begin> 
+<id> 11
+<title> 腾讯音乐入局元宇宙 推出虚拟音乐世界产品 https://finance.sina.com.cn/blockchain/roll/2021-12-24/doc-ikyamrmz0896326.shtml?cre=tianyi&mod=pctech&loc=17&r=0&rfunc=33&tj=cxvertical_pc_tech&tr=12
+<text>
+12月24日消息，腾讯音乐娱乐集团（TME）今日宣布将正式推出国内首个虚拟音乐嘉年华TMELAND，并已在TME旗下QQ音乐等平台上线预约页面。产品将基于元象自研的端云协同等创新技术，构建出一个虚拟音乐世界。用户可以在这里创造个人专属虚拟形象，与其他人交流互动，还可以通过虚拟直播、虚拟演唱会等数字场景，感受现实与虚拟结合的沉浸式音娱体验。
+<end> 
